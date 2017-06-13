@@ -18,7 +18,7 @@ data:extend(
   -- Launchable grenade
   {
     type = "recipe",
-    name = "launcher-grenade",
+    name = "launchable-grenade",
     enabled = false,
     energy_required = 2,
     ingredients =
@@ -26,13 +26,13 @@ data:extend(
       {"grenade", 1},
       {"electronic-circuit", 1}
     },
-    result = "launcher-grenade"
+    result = "launchable-grenade"
   },
 
   -- Launchable cluster grenade
   {
     type = "recipe",
-    name = "launcher-grenade-cluster",
+    name = "launchable-cluster-grenade",
     enabled = false,
     energy_required = 2,
     ingredients =
@@ -40,7 +40,7 @@ data:extend(
       {"cluster-grenade", 1},
       {"electronic-circuit", 1}
     },
-    result = "launcher-grenade-cluster"
+    result = "launchable-cluster-grenade"
   }
 }
 )

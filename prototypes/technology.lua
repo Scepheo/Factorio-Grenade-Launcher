@@ -5,8 +5,8 @@ local grenadesDone = false
 local clusterGrenadesDone = false
 
 local grenadeLauncherUnlock = {type = "unlock-recipe", recipe = "grenade-launcher"}
-local launchableGrenadeUnlock = {type = "unlock-recipe", recipe = "launcher-grenade"}
-local launchableClusterGrenadeUnlock = {type = "unlock-recipe", recipe = "launcher-grenade-cluster"}
+local launchableGrenadeUnlock = {type = "unlock-recipe", recipe = "launchable-grenade"}
+local launchableClusterGrenadeUnlock = {type = "unlock-recipe", recipe = "launchable-cluster-grenade"}
 
 for _, technology in pairs(data.raw.technology) do
     local effects = technology.effects

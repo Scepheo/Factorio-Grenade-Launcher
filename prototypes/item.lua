@@ -31,8 +31,8 @@ data:extend(
   -- Launchable grenade
   {
     type = "ammo",
-    name = "launcher-grenade",
-    icon = "__base__/graphics/icons/grenade.png",
+    name = "launchable-grenade",
+    icon = "__GrenadeLauncher__/graphics/icons/launchable-grenade.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
@@ -57,8 +57,8 @@ data:extend(
   -- Launchable cluster grenade
   {
     type = "ammo",
-    name = "launcher-grenade-cluster",
-    icon = "__base__/graphics/icons/cluster-grenade.png",
+    name = "launchable-cluster-grenade",
+    icon = "__GrenadeLauncher__/graphics/icons/launchable-cluster-grenade.png",
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
