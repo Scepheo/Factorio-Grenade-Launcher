@@ -5,6 +5,7 @@ data:extend(
     type = "gun",
     name = "grenade-launcher",
     icon = "__GrenadeLauncher__/graphics/icons/grenade-launcher.png",
+    icon_size = 32,
     flags = {"goes-to-main-inventory"},
     subgroup = "gun",
     order = "d[grenade-launcher]",
@@ -33,6 +34,7 @@ data:extend(
     type = "ammo",
     name = "launchable-grenade",
     icon = "__GrenadeLauncher__/graphics/icons/launchable-grenade.png",
+    icon_size = 32,
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
@@ -59,6 +61,7 @@ data:extend(
     type = "ammo",
     name = "launchable-cluster-grenade",
     icon = "__GrenadeLauncher__/graphics/icons/launchable-cluster-grenade.png",
+    icon_size = 32,
     flags = {"goes-to-main-inventory"},
     ammo_type =
     {
